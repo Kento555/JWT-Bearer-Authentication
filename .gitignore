@@ -134,3 +134,6 @@ private_key.pem
 
 # Ignore public key files (optional, if not needed in the repo)
 public_key.pem
+
+# Ignore Identifier
+.Identifier
