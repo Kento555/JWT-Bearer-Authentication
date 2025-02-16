@@ -139,4 +139,4 @@ public_key.pem
 .Identifier
 .pem:Zone.Identifier  
 private_key.pem:Zone.Identifier  
-public_key.pem:Zone.Identifier
+public_key.pem:Zone.Identifieradd
