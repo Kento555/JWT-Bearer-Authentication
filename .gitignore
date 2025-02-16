@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore private key files
+private_key.pem
+
+# Ignore public key files (optional, if not needed in the repo)
+public_key.pem

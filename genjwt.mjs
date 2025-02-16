@@ -1,7 +1,7 @@
 // index.mjs
 // Here’s how to generate the JWT:
 
-import { readFile } from 'fs/promises';
+import { readFile, writeFile } from 'fs/promises';  // Add writeFile import
 import { importPKCS8, SignJWT } from 'jose';
 
 // Load RSA private key
@@ -20,3 +20,7 @@ const jwt = await new SignJWT({})
   .sign(privateKey);                         // Sign with RSA private key
 
 console.log('Your JWT:', jwt);
+
+// Save JWT to a file
+await writeFile('./jwt_token.txt', jwt, 'utf8');
+console.log('JWT saved to jwt_token.txt');
