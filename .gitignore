@@ -137,3 +137,5 @@ public_key.pem
 
 # Ignore Identifier
 .Identifier
+private_key.pem:Zone.Identifier  
+public_key.pem:Zone.Identifier
