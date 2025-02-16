@@ -1,9 +1,11 @@
 // index.mjs
+// Here’s how to generate the JWT:
+
 import { readFile } from 'fs/promises';
 import { importPKCS8, SignJWT } from 'jose';
 
 // Load RSA private key
-const privateKeyText = await readFile('./private.pem', 'utf8');
+const privateKeyText = await readFile('./private_key.pem', 'utf8');
 
 // Convert to a format compatible with jose
 const privateKey = await importPKCS8(privateKeyText, 'RS256');
