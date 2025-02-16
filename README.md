@@ -52,6 +52,11 @@ Generate RSA Keys: Use OpenSSL or Node.js.
 Send Public Key to OGP: Wait for issuer and subject.  
 Create JWT: Sign using RS256 and attach to Authorization header.  
 Call Bright API: Include Authorization: Bearer <JWT>.  
+  
+
+*** Run all mjs file:  " find . -name "*.mjs" -exec node {} \;  "  
+
+
 
 
 
