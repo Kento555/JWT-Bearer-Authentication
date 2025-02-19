@@ -32,7 +32,7 @@ Attach the JWT to the Authorization header in the following format
 ![alt text](image-2.png)  
 
 4. Example Code (using the jose library):  
-Here’s how to generate the JWT: Refer index.mjs  
+Here’s how to generate the JWT: Refer genjwt.mjs  
 ![alt text](image-3.png)  
 
 5.Key Concepts:  
